@@ -1,6 +1,6 @@
 CXX=g++
 CXXFLAGS=-O3 -march=native -I/usr/include/opencv4/
-LDLIBS=`pkg-config --libs opencv`
+LDLIBS=`pkg-config --libs opencv4`
 
 
 grayscale: grayscale.cpp
