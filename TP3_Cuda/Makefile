@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS=-O3 -march=native -I/usr/include/opencv4
+CXXFLAGS=-O3 -march=native -I/usr/include/opencv4/
 LDLIBS=`pkg-config --libs opencv`
 
 
